@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - npm install
-        - wget --no-verbose wget --no-verbose https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+        - wget --no-verbose https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
         - yum -y -q install google-chrome-stable_current_x86_64.rpm
     # IMPORTANT - Please verify your build commands
     build:
